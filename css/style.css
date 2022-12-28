@@ -205,27 +205,41 @@ header nav li:last-of-type a{
     justify-content: space-between;
     align-items: center;
 }
-.info{
-    background-image: url("../images/bg_info.jpg");
+.monstera, .himalayas, .fuji{
     background-size: cover;
     height: 90vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.info .container{
+.fuji{
+    background-image: url("../images/Fuji.jpg");
+}
+.monstera{
+    background-image: url("../images/Monstera.jpg");
+}
+.himalayas{
+    background-image: url("../images/bg_info.jpg");
+}
+.himalayas .container,
+.monstera .container,
+.fuji .container{
     max-width: 254px;
     margin: inherit;
     margin-right: 106px;
 }
-.info .container h4{
+.himalayas .container h4,
+.monstera .container h4,
+.fuji .container h4{
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.info .container p{
+.himalayas .container p,
+.monstera .container p,
+.fuji .container p{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
