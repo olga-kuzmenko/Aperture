@@ -215,6 +215,8 @@ header nav li:last-of-type a{
 }
 .info .container{
     max-width: 254px;
+    margin: inherit;
+    margin-right: 106px;
 }
 .info .container h4{
     font-size: 14px;
