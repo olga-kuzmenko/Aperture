@@ -217,6 +217,37 @@ header nav li:last-of-type a{
     justify-content: space-between;
     align-items: center;
 }
+.info{
+    background-image: url("../images/bg_info.jpg");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.info .container{
+    max-width: 254px;
+
+}
+.info .container h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.info .container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
 .feedback{
     background-color: #000000;
     padding-top: 113px;
