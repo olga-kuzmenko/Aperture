@@ -207,7 +207,7 @@ header nav li:last-of-type a{
 }
 .monstera, .himalayas, .fuji{
     background-size: cover;
-    height: 90vh;
+    height: 600px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -224,7 +224,7 @@ header nav li:last-of-type a{
 .himalayas .container,
 .monstera .container,
 .fuji .container{
-    max-width: 254px;
+    max-width: 298px;
     margin: inherit;
     margin-right: 106px;
 }
@@ -291,3 +291,117 @@ header nav li:last-of-type a{
 .getintouch:hover{
     transform: scale(1.2);
 }
+footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
+}
+footer .container{
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    padding-bottom: 36px;
+}
+.footer_logo{
+    max-width: 128px;
+    margin-bottom: 20px;
+}
+footer .container p{
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.links{
+    display: flex;
+    max-width: 458px;
+    width: 100%;
+    justify-content: flex-start;
+}
+footer ul{
+    list-style: none;
+}
+footer ul:first-of-type{
+    margin-right: 55px;
+}
+footer li{
+    padding-bottom: 10px;
+}
+footer li a{
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer li:first-of-type,
+footer h5{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.subscribe{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+footer h5{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+form{
+    max-width: 458px;
+    max-height: 52px;
+    width: 100%;
+    background-color: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 11px 6px 11px 6px;
+    box-sizing: border-box;
+    display: flex;
+}
+form label{
+    display: none;
+}
+form input{
+    max-width: 376px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+button{
+    background-color: #000000;
+    border-radius: 11px;
+    border: none;
+    max-width: 63px;
+    max-height: 30px;
+    width: 100%;
+}
+.container.copyright{
+    padding-top: 56px;
+    padding-bottom: 100px;
+}
+.copyright span{
+    font-size: 14px;
+}
+.social_media{
+    max-width: 112px;
+}
+.social_media ul{
+    display: flex;
+    list-style: none;
+}
+.social_media li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
