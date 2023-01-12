@@ -36,6 +36,7 @@ header nav a{
 header nav li{
     margin-left: 32px;
     transition: 0.4s;
+    margin-right: 24px;
 }
 header nav li:hover{
     transform: scale(1.2);
@@ -43,9 +44,7 @@ header nav li:hover{
 header nav li:first-of-type a{
     font-size: 13px;
 }
-header nav li{
-    margin-right: 24px;
-}
+
 header nav li:last-of-type a{
     font-size: 13px;
     color: black;
@@ -400,7 +399,6 @@ footer .container p{
     display: flex;
     max-width: 458px;
     width: 100%;
-    justify-content: flex-start;
 }
 footer ul{
     list-style: none;
@@ -462,6 +460,7 @@ button{
     border: none;
     max-width: 63px;
     max-height: 30px;
+    min-height: 23px;
     width: 100%;
 }
 .container.copyright{
