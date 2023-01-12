@@ -1,4 +1,7 @@
 @media only screen and (max-width: 1024px) {
+    .main_banner{
+        padding-bottom: 30%;
+    }
     .what_we_do .d_flex_container article {
         max-width: 489px
     }
@@ -65,7 +68,7 @@
     }
 
     .main_banner {
-        padding-bottom: 70%;
+        padding-bottom: 36%;
     }
 
     .d_flex_container {
@@ -104,11 +107,17 @@
     }
 }
 @media only screen and (max-width: 320px){
+    .main_banner h1 {
+        font-size: 49px;
+    }
     .position_items{
         right: 9px;
     }
     .what_we_do .description p {
         font-size: 12px;
+    }
+    .feedback h4{
+        font-size: 35px;
     }
     .btn_read_more {
         font-size: 13px;
