@@ -107,6 +107,11 @@ body {
     width: 100%;
 }
 
+header .container a{
+    position: relative;
+    z-index: 99;
+}
+
 header {
     background-color: #181818;
     padding: 24px 0;
@@ -117,9 +122,9 @@ header {
     margin: auto;
 }
 
-header a {
-    font-size: 0;
-}
+/*header a {*/
+/*    font-size: 0;*/
+/*}*/
 
 header nav ul {
     display: flex;

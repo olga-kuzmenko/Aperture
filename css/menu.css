@@ -62,7 +62,7 @@ a:hover {
     height: 30px;
     width: 30px;
     position: relative;
-    z-index: 2;
+    z-index: 99;
     cursor: pointer;
     display: block;
 }
