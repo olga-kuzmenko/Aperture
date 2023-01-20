@@ -99,6 +99,8 @@ a:hover {
 .nav {
     position: fixed;
     z-index: 98;
+    left: 0;
+    top: 0;
 }
 .nav:before, .nav:after {
     content: "";
