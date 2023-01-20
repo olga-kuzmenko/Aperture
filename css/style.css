@@ -40,15 +40,22 @@ body {
     border-radius: 5px;
 }
 
-.ui-button .ui-icon{
+.ui-button .ui-icon {
     background-image: url("../images/close_bar.png");
 }
-.ui-button-icon-only .ui-icon{
+
+.ui-button:hover .ui-icon {
+    background-image: url("../images/close_bar.png");
+}
+
+.ui-button-icon-only .ui-icon {
     margin-top: -10px;
 }
-.ui-icon-closethick{
+
+.ui-icon-closethick {
     background-position: inherit;
 }
+
 .ui-icon {
     width: 20px;
     height: 20px;
