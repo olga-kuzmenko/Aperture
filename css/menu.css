@@ -135,22 +135,8 @@ body {
     z-index: 2;
 }
 
-
-
-
-/*.nav__list-item a:hover {*/
-/*    color: rgba(255, 255, 255, 1);*/
-/*}*/
-
 .nav__list-item.active-nav a {
     color: rgba(255, 255, 255, 1);
-}
-
-.nav__list-item.active-nav a:after {
-    height: 4px;
-    opacity: 1;
-    left: 0;
-    width: 100%;
 }
 
 body.nav-active .nav__content {

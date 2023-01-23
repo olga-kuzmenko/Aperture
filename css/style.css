@@ -122,10 +122,6 @@ header {
     margin: auto;
 }
 
-/*header a {*/
-/*    font-size: 0;*/
-/*}*/
-
 header nav ul {
     display: flex;
     list-style: none;

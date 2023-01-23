@@ -88,7 +88,7 @@
         text-align: center;
         color: #fff;
         overflow: hidden;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-size: 8vh;
         font-weight: 900;
         line-height: 1.15;
@@ -114,7 +114,6 @@
         font-weight: 900;
         z-index: 2;
         display: inline-block;
-        text-transform: uppercase;
         -webkit-transition: all 200ms linear;
         transition: all 200ms linear;
     }
@@ -175,6 +174,12 @@ header nav ul{
     }
     footer ul:first-of-type {
         margin-left: inherit;
+    }
+    .clients_logo .owl-nav .owl-prev:after{
+        display: none;
+    }
+    .clients_logo .owl-nav .owl-next:after{
+        display: none;
     }
 }
 @media only screen and (max-width: 390px){
